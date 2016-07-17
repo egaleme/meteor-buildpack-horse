@@ -1,4 +1,4 @@
-# Meteor Buildpack Horse
+#Forked Meteor Buildpack Horse
 
 [![Horse](https://i.imgur.com/YhIL9zM.jpg)](https://commons.wikimedia.org/wiki/File:Draw-Costa_Rican-2smallest.jpg)
 
@@ -38,9 +38,9 @@ Or if your Heroku app already exists
 
 Configure your plugins & settings
 
-% heroku config:add MONGO_URL=<insert_value_of_MONGOLAB_URI_here>
+% heroku config:add MONGO_URL= your mlab database url here
 
-% heroku config:add ROOT_URL=<insert_url_created_above_here>
+% heroku config:add ROOT_URL= your heroku app url here
 
 Add session affinity so your app will still work with more than one dyno
 
